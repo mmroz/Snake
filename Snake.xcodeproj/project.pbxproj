@@ -14,6 +14,9 @@
 		E42CAA791D82E7DD0006EDEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E42CAA781D82E7DD0006EDEE /* Assets.xcassets */; };
 		E42CAA7C1D82E7DD0006EDEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42CAA7A1D82E7DD0006EDEE /* LaunchScreen.storyboard */; };
 		E42CAA871D82E7DD0006EDEE /* SnakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42CAA861D82E7DD0006EDEE /* SnakeUITests.swift */; };
+		E42CAA921D82E8450006EDEE /* Gameboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42CAA911D82E8450006EDEE /* Gameboard.swift */; };
+		E42CAA941D82E8DB0006EDEE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42CAA931D82E8DB0006EDEE /* Model.swift */; };
+		E42CAA961D82E9C10006EDEE /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42CAA951D82E9C10006EDEE /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		E42CAA821D82E7DD0006EDEE /* SnakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42CAA861D82E7DD0006EDEE /* SnakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeUITests.swift; sourceTree = "<group>"; };
 		E42CAA881D82E7DD0006EDEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E42CAA911D82E8450006EDEE /* Gameboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gameboard.swift; sourceTree = "<group>"; };
+		E42CAA931D82E8DB0006EDEE /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E42CAA951D82E9C10006EDEE /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 			children = (
 				E42CAA6E1D82E7DC0006EDEE /* AppDelegate.swift */,
 				E42CAA701D82E7DC0006EDEE /* ViewController.swift */,
+				E42CAA911D82E8450006EDEE /* Gameboard.swift */,
+				E42CAA931D82E8DB0006EDEE /* Model.swift */,
+				E42CAA951D82E9C10006EDEE /* Helpers.swift */,
 				E42CAA721D82E7DC0006EDEE /* Main.storyboard */,
 				E42CAA781D82E7DD0006EDEE /* Assets.xcassets */,
 				E42CAA7A1D82E7DD0006EDEE /* LaunchScreen.storyboard */,
@@ -200,6 +209,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E42CAA941D82E8DB0006EDEE /* Model.swift in Sources */,
+				E42CAA961D82E9C10006EDEE /* Helpers.swift in Sources */,
+				E42CAA921D82E8450006EDEE /* Gameboard.swift in Sources */,
 				E42CAA771D82E7DC0006EDEE /* Snake.xcdatamodeld in Sources */,
 				E42CAA711D82E7DC0006EDEE /* ViewController.swift in Sources */,
 				E42CAA6F1D82E7DC0006EDEE /* AppDelegate.swift in Sources */,
